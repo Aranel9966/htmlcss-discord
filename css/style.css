@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-pag{
+    
+    max-width: 1000px;
+    margin: auto;
+     
+}
+
+header {
+    height:500px;
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+
+nav{
+    display: flex;
+    gap: 200px;
+
+}
+
+#logo{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+#menu{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+
+#menu ul{
+    
+    
+    
+    /* /test */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#menu ul li{
+    
+    
+    color: white;
+    display: flex;
+    
+    /* /test */
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+   
+}
+
+#login{
+    text-align: center;
+    
+}
+
+
+.contain-hr{
+
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contain-hr article{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    max-width: 600px;
+    color: white;
+    
+}
+
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-secondary{
+    background-color: #23272a;
+    color: wheat;
+}
+
+main{
+    background-color: aqua;
+}
+
+.contain{
+    height: 400px;
+    background-color: crimson;
+    display: flex;
+}
+
+.contain article{
+    background-color: darkgreen;
+    
+    
+    /* /test */
+    flex-grow: 1;
+}
+.contain img{
+    background-color: black;
+    width: 60%;
+}
+
+footer{
+    background-color: gray;
+}
+
+.end-contain{
+    height: 200px;
+    background-color: deeppink;
+    
+    /* /test */
+    text-align: center;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.list{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    /* /test */
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.list ul {
+    list-style-type: none;
+    flex-direction: row;
+    border: 1px solid white
+}
+
+#social{
+
+    /* /test */
+    width: 400px;
+    background-color: black;
+    
+}
+#end-bar{
+
+    height: 50px;
+    background-color: blue;
+    /* /test */
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#logo2{
+    height: 50px;
+    min-width: 100px;
+    background-color: blueviolet;
+    /* /test */
+    align-items: flex-end;
+}
+#register{
+    height: 50px;
+    min-width: 100px;
+    background-color: rgb(43, 226, 113);
+    /* /test */
+    align-items: flex-end;
+
+}
