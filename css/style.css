@@ -109,13 +109,12 @@ button{
 /* /header */
 
 /* main */
-main{
-    background-color: aqua;
-}
 
-.contain{
+
+.contain {
     align-items: center;
     display: flex;
+    padding: 100px 0;
 }
 
 .contain article{
@@ -125,6 +124,14 @@ main{
 
 .end-contain{
     text-align: center;
+    padding: 100px 0;
+}
+
+ #stars{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position:top;
+    padding-top: 30px;
 
 }
 
