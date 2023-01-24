@@ -80,7 +80,7 @@ nav{
 }
 
 
-.contain-hr{
+.container-hr{
 
     margin-top: 150px;
     text-align: center;
@@ -89,7 +89,7 @@ nav{
 
 }
 
-.contain-hr article{
+.container-hr article{
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -124,7 +124,7 @@ button{
 /* main */
 
 
-.contain {
+.container {
     align-items: center;
     display: flex;
     padding: 100px 0;
@@ -134,11 +134,11 @@ h2,p{
     margin: 10px;
 }
 
-.contain article{
+.container article{
     flex-grow: 1;
 }
 
-.end-contain{
+.end-container{
     text-align: center;
     padding: 100px 0;
 }
