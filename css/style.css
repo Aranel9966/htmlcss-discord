@@ -105,6 +105,9 @@ button{
     background-color: #23272a;
     color: wheat;
 }
+.blue{
+    background-color: #7289da;
+}
 
 /* /header */
 
@@ -117,8 +120,11 @@ button{
     padding: 100px 0;
 }
 
+h2,p{
+    margin: 10px;
+}
+
 .contain article{
-    
     flex-grow: 1;
 }
 
@@ -146,9 +152,7 @@ footer{
 
 .list{
     background-color: brown;
-    width: 100%;
-    height: 100px;
-    /* /test */
+    
     display: flex;
     justify-content: space-between;
    
@@ -160,13 +164,12 @@ footer{
     border: 1px solid white
 }
 
-#social{
-
-    /* /test */
-    width: 400px;
-    background-color: black;
-    
+#social div img{
+    width: 20px;
+    height: 15px;
+ 
 }
+
 #end-bar{
 
     height: 50px;
@@ -177,13 +180,7 @@ footer{
 
     
 }
-/* #logo2{
-    height: 50px;
-    min-width: 100px;
-    background-color: blueviolet;
-    
-    align-items: flex-end;
-} */
+
 #register{
     height: 50px;
     min-width: 100px;
