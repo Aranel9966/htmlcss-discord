@@ -151,6 +151,17 @@ h2,p{
 
 }
 
+.sfondo{
+    background-color: #d3d3d3;
+    margin: -5px;
+   
+}
+
+#ruota{
+    transform: rotate(180deg)
+
+}
+
 /* footer */
 
 footer{
@@ -203,3 +214,4 @@ hr{
 .btn-primary{   
     align-items: flex-end;
 }
+
