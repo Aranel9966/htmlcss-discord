@@ -113,10 +113,16 @@ button{
 .btn-primary{   
     align-items: flex-end;
 }
+
 a{
     text-decoration: none;
 
 }
+
+li a{
+    color: white;
+}
+
 .btn-secondary{
     background-color: #23272a;
     color: white;
@@ -128,7 +134,7 @@ a{
     color: white;
 }
 
-/* --------bottoni---------- */
+/* --------/bottoni---------- */
 
 /* /header */
 
@@ -161,11 +167,13 @@ h2,p{
     padding-top: 30px;
 
 }
+main>img{
+   display: block;
 
+}
 .sfondo{
     background-color: #d3d3d3;
-    margin: -5px;
-   
+    /* margin: -5px; */
 }
 
 #ruota{
